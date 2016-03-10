@@ -1,0 +1,17 @@
+.multi-dropdown {
+  position: relative; }
+
+.dropdown-panel {
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  right: 0px;
+  overflow: auto;
+  border: solid 1px #ccc;
+  border-radius: 5px;
+  display: block;
+  background-color: white;
+  z-index: 1000; }
+  .dropdown-panel .btn {
+    width: 100%;
+    box-sizing: border-box; }
